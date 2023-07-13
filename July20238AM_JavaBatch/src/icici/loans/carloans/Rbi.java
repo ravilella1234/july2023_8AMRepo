@@ -4,8 +4,8 @@ public interface Rbi
 {
 	int x = 100;
 	
-	public void withdrawl();
-	public void deposit();
+	 public void withdrawl();
+	 public void deposit();
 	
 	public static void main(String[] args) 
 	{
