@@ -1,9 +1,9 @@
 package icici.loans.carloans;
 
+import icici.loans.eduloans.C;
+
 public class A 
-{
-	public int x = 100;
-	
+{	
 	public void m1()
 	{
 		System.out.println("iam m1 from A");
@@ -13,7 +13,14 @@ public class A
 	{
 		A a = new A();
 		a.m1();
-		System.out.println(a.x);
+		
+		A obj;
+		
+		 obj = new B();
+		obj.m1();
+		
+		 obj = new C();
+		obj.m1();
 	}
 
 }
