@@ -2,7 +2,7 @@ package icici.loans.carloans;
 
 import java.util.Date;
 
-public   class A 
+public  class A 
 {	
 	public static final int x = 100;
 	
@@ -29,8 +29,7 @@ public   class A
 		System.out.println(dt);
 	}
 	
-	public abstract void m6();
-
+	
 	public static void main(String[] args) 
 	{
 		A a = new A();
