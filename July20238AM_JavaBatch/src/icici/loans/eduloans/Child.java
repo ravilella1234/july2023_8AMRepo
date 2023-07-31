@@ -3,23 +3,24 @@ package icici.loans.eduloans;
 
 class Parent
 {
-	public void workhard()
+	public   Number workhard()
 	{
 		System.out.println("Parent : wakeup early, goto college...");
+		return 0;
 	}
 	
 	public void care()
 	{
 		System.out.println("Parent : atmost care......");
 	}
-	
 }
 
 public class Child extends Parent
 {
-	public void workhard()
+	public  Number workhard()
 	{
 		System.out.println("Child : wakeup anytime, goto movie...");
+		return 0;
 	}
 	
 	public void love()
@@ -34,5 +35,7 @@ public class Child extends Parent
 		obj.care();
 		obj.love();
 	}
+
+	
 
 }
