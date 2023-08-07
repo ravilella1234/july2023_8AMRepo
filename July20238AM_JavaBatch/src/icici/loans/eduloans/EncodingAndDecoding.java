@@ -13,8 +13,8 @@ public class EncodingAndDecoding
 		byte[] encodedString = password.getBytes();
 		System.out.println("Encoded string : " + encodedString);
 		
-		byte[] decodeString = Base64.Dec
-		System.out.println("Decoded String : " + decodeString);
+		byte[] decodeString = Base64.getDecoder().decode(encodedString);
+		System.out.println("Decoded String : " + new String(decodeString));
 	}
 
 }
